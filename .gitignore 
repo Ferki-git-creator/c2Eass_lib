@@ -1,0 +1,47 @@
+# Compilation objects
+*.o
+*.obj
+*.out
+*.exe
+
+# Libraries (static and dynamic)
+*.lib
+*.a
+*.so
+*.dll
+*.dylib
+
+# Editor/IDE specific files and directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+*.ipr
+*.iws
+
+# Doxygen documentation output (if you generate it)
+docs/
+html/
+latex/
+
+# Build system specific files and directories (e.g., CMake)
+build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# Testing related files (if you have tests)
+test_outputs/
+*.log
+
+# Temporary files and directories that might be created
+*.tmp
+temp/
+tmp/
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
